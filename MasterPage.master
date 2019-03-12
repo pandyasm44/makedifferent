@@ -1,0 +1,336 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="description" content="Best Motivational Speaker,sales Traning Solution Gujarat best Motivation Speaker,Best Traning Provider" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Make Difference Traning Solution</title>
+
+    <!--Style Css Start-->
+    <link rel="stylesheet" href="css/style.css" media='all' />
+    <!--Bootstrap Css Start-->
+    <link rel="stylesheet" href="css/bootstrap.css" media='all' />
+    <!--Owl Carousel Css Start-->
+    <link rel="stylesheet" href="css/owl-carousel.css" media='all' />
+    <!--Theme Color Css Start-->
+    <link rel="stylesheet" href="css/theme-color.css" media='all' />
+    <!--Responsive Css Start-->
+    <link rel="stylesheet" href="css/responsive.css" media='all' />
+    <!--Animate Css Start-->
+    <link rel="stylesheet" href="css/animate.css" media='all' />
+    <!--Scrollbar Css Start-->
+    <link rel="stylesheet" href="css/jquery.scrollbar.css" media='all' />
+    <!--Font Awesome Css Start-->
+    <link rel="stylesheet" href="css/font-awesome.min.css" media='all' />
+    <!--Font IcoMoon Css Start-->
+    <link rel="stylesheet" href="css/icomoon.css" media='all' />
+</head>
+<body>
+
+
+    <form id="form1" runat="server">
+        <!--Wrapper Content Start-->
+        <div class="tnit-wrapper">
+
+            <!--Popup Overlay Outer Start-->
+            <div class="tnit-popup-outer">
+                <!-- Modal Box Start-->
+                <div class="modal fade tnit-modal-outer" id="tnit-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="top">
+                                    <h5 class="modal-title"><a href="#">New to site?</a> Creat an Account</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <h3>Register</h3>
+                            </div>
+                            <div class="modal-body">
+                                <!--Modal Form Start-->
+                                <div method="get" class="tnit-modal-form">
+                                    <div class="inner-holder">
+                                        <label>Username</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="inner-holder">
+                                        <label>Email</label>
+                                        <input type="email">
+                                    </div>
+                                    <div class="inner-holder">
+                                        <label>Password</label>
+                                        <input type="password">
+                                    </div>
+                                    <div class="inner-holder">
+                                        <button class="btn-register" type="submit">Register</button>
+                                    </div>
+                                </div>
+                                <!--Modal Form End-->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Box End-->
+            </div>
+            <!--Popup Overlay Outer End-->
+
+            <!--Header Content Start-->
+            <header class="tnit-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <!--Logo Start-->
+                            <strong class="tnit-logo">
+                                <a href="index-2.html">
+                                    <img src="images/logo.png" alt="MDTS" /></a>
+                            </strong>
+                            <!--Logo End-->
+                        </div>
+                        <div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-1">
+                            <!--Topbar content Start-->
+                            <div class="tnit-topbar-holder">
+                                <!--Top Left Box Start-->
+                                <ul class="tp-left-listed">
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i>+91 8209278746</li>
+                                    <li>
+                                        <a href="mailto:achieve@makedifference.in"><i class="fa fa-envelope" aria-hidden="true"></i>achieve@makedifference.in</a>
+                                    </li>
+                                </ul>
+                                <!--Top Left Box End-->
+                                <!--Top Right Start-->
+                                <div class="tp-right">
+                                    <a href="#" class="btn-account" data-toggle="modal" data-target="#tnit-modal">My Account</a>
+                                    <!--Socail Links start-->
+                                    <ul class="tnit-social-links">
+                                        <li>
+                                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                        </li>
+                                    </ul>
+                                    <!--Socail Links End-->
+
+                                </div>
+                            </div>
+                            <!--Topbar content End-->
+
+                            <!--Nav Holder Start-->
+                            <div class="tnit-navbar-holder">
+
+                                <nav class="navbar navbar-default">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tnit-navbar-collapse" aria-expanded="false"><span class="sr-only">Menu</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                                    </div>
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="tnit-navbar-collapse">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="index-2.html">Home</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="video.html">Online Lectures</a></li>
+                                            <li><a href="courses.html">Courses</a></li>
+                                            <li><a href="event.html">Event</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.navbar-collapse -->
+                                </nav>
+                                <!--Nav Right Start-->
+                                <%--   <ul class="tnit-nav-right">
+                                    <li class="tnit-search-box">
+                                        <a href="#" id="trigger-tnit-search"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                        <!-- Search Form Outer Start-->
+                                        <div method="get" class="tnit-search-form1">
+                                            <input type="text" placeholder="Type your keywords">
+                                            <button class="btn-submit" type="submit">
+                                                <i class="fa fa-search" aria-hidden="true"></i>
+                                            </button>
+                                        </div>
+                                        <!-- Search Form Outer End-->
+                                    </li>
+                                </ul>--%>
+                                <!--Nav Right End-->
+                            </div>
+                            <!--Nav Holder End-->
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--Header Content End-->
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!--Footer Content Start-->
+            <footer class="tnit-footer">
+                <!--Footer Top Row start-->
+                <div class="tnit-footer-tprow">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                <!--Widget About Start-->
+                                <div class="widget widget-about">
+                                    <strong class="ft-logo">
+                                        <a href="index-2.html">
+                                            <img src="images/ft-logo.png" alt="MDTS" /></a>
+                                    </strong>
+                                    <p>Make Difference Traning Solution is a traning company in Gujarat.Make  Difference Traning Solution is one of the best traning Provider Company.</p>
+                                    <ul class="about-info-listed">
+                                        <li>
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            C-18/19,First Floor,Amardeep Complex,Rajpipla Road,Ankleshwar
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-phone" aria-hidden="true"></i>
+                                            <a href="tel:+91 8209278746">+91 8209278746</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                                            <a href="mailto: achieve@makedifference.in">achieve@makedifference.in</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--Widget About End-->
+                            </div>
+                            <div class="col-md-2 col-sm-12 col-xs-12">
+                                <!--Widget Start-->
+                                <div class="widget">
+                                    <h4>Services</h4>
+                                    <!--Widget Listed Start-->
+                                    <ul class="widget-listed">
+                                        <li><a href="#">Sales Training</a></li>
+                                        <li><a href="#">Personal Development</a></li>
+                                        <li><a href="#">Leadership</a></li>
+                                        <li><a href="#">Business Training</a></li>
+                                        <li><a href="#">Public Speaking</a></li>
+                                        <li><a href="#">Digital Marketing</a></li>
+                                    </ul>
+                                    <!--Widget Listed End-->
+                                </div>
+                                <!--Widget End-->
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12">
+                                <!--Widget Start-->
+                                <div class="widget wiget-instagram">
+                                    <h4>PHOTOS</h4>
+                                    <ul class="intagram-listed">
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/instagram-img-01.jpg" alt="MDTS" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/instagram-img-02.jpg" alt="MDTS" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/instagram-img-03.jpg" alt="MDTS" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/instagram-img-04.jpg" alt="MDTS" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/instagram-img-05.jpg" alt="MDTS" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="images/instagram-img-06.jpg" alt="MDTS" /></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--Widget End-->
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12">
+                                <!--Widget Start-->
+                                <div class="widget widget-appointment">
+                                    <h4>GET APPOINTMENT</h4>
+                                    <div class="tnit-appointment-form">
+                                        <div class="inner-holder">
+                                            <input type="text" placeholder="Name" />
+                                        </div>
+                                        <div class="inner-holder">
+                                            <input type="tel" placeholder="Phone" />
+                                        </div>
+                                        <div class="inner-holder">
+                                            <button class="btn-submit" type="submit">MAKE APPOINTMENT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Widget End-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Footer Top Row End-->
+                <!--CopyRight Row Start-->
+                <div class="tnit-copyright-row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+                            </div>
+                            <div class="col-md-5 col-sm-6 col-xs-12">
+                                <p>Copyright © 2017 <span class="th-color">Make Different Traning Solution</span>, Design by <a href="https://www.saurabhpandya.in/">Saurabh Pandya</a>.</p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <!--Socail Links start-->
+                                <ul class="tnit-social-links tnit-social-links_v2">
+                                    <li>
+                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                                <!--Socail Links End-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--CopyRight Row End-->
+            </footer>
+            <!--Footer Content End-->
+        </div>
+        <!--Wrapper Content End-->
+    </form>
+
+    <!--JQuery Files Start-->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/owl-carousel.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="../../../../cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.scrollbar.js"></script>
+    <script src="js/video-player.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
